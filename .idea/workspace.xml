@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e9c853c-6cd6-457d-9789-f4a52768a152" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenShotcreateDealTest_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenShotloginTest_.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ScreenShotsearchTest_.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/screenshotusingtestngg/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/screenshotusingtestngg/Base.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/screenshotusingtestngg/CustomListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/screenshotusingtestngg/CustomListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/screenshotusingtestngg/ScreenShotTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/screenshotusingtestngg/ScreenShotTest.java" afterDir="false" />
@@ -42,6 +46,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\screenShot\src\main\java\ScreenShotOnStart" />
       <recent name="C:\Workspace\screenShot\src\main\java" />
     </key>
   </component>

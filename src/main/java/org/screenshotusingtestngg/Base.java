@@ -15,21 +15,43 @@ public class Base {
         driver.get("https://awesomeqa.com/webtable.html");
     }
 
-        public void failed(String testMethodName){
+        public void failed(String testFailMethodName){
 
          File fileName = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
          try {
-             FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShot"+testMethodName+"_"+".jpg"));
+             FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShotFailed/"+testFailMethodName+"_"+".jpg"));
          }catch (Exception e){
              e.printStackTrace();
          }
         }
-        public void passed(String testMethodName){
+        public void passed(String testPassMethodName){
                 File    fileName= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
                 try {
-                   FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShot"+testMethodName+"_"+".jpg"));
+                   FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShotPassed/"+testPassMethodName+"_"+".jpg"));
                 }catch (Exception e){
                     e.printStackTrace();
                 }
         }
+
+        public void testStart(String testStartMethodName){
+        File  fileName =  ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        try{
+            FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShotTestStart/"+testStartMethodName+"_"+".jpg"));
+        }catch (Exception e){
+            e.printStackTrace();
+        }}
+
+        public void start(){
+          File fileName= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+          try{
+              FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShotOnStart/"+"_"+".jpg"));
+          }catch (Exception e){
+              e.printStackTrace();
+          }
+
+        }
+
+
+
+
 }

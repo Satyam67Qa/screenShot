@@ -10,6 +10,7 @@ public class ScreenShotTest extends Base{
 
     @BeforeMethod
     public void setUp(){
+
         initilaization();
     }
 

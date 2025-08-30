@@ -7,6 +7,8 @@ import org.testng.ITestResult;
 public class CustomListener extends Base implements ITestListener {
     @Override
     public void onTestStart(ITestResult result) {
+        System.out.println("On Test Start ");
+        testStart(result.getMethod().getMethodName());
     }
     @Override
     public void onTestSuccess(ITestResult result) {
@@ -31,6 +33,8 @@ public class CustomListener extends Base implements ITestListener {
     }
     @Override
     public void onStart(ITestContext context) {
+        System.out.println("starting>>>");
+
     }
     @Override
     public void onFinish(ITestContext context) {
