@@ -10,6 +10,8 @@ public class CustomListener extends Base implements ITestListener {
     }
     @Override
     public void onTestSuccess(ITestResult result) {
+        System.out.println("PassTestCase");
+        passed(result.getMethod().getMethodName());
     }
     @Override
     public void onTestFailure(ITestResult result) {

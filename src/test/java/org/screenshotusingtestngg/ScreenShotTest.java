@@ -15,14 +15,17 @@ public class ScreenShotTest extends Base{
 
     @Test
     public void loginTest(){
-        Assert.assertEquals(false,true);
+
+        Assert.assertEquals(true,true);
     }
     @Test
     public void searchTest(){
+
         Assert.assertEquals(false,true);
     }
     @Test
     public void createDealTest(){
+
         Assert.assertEquals(false,true);
     }
 

@@ -24,4 +24,12 @@ public class Base {
              e.printStackTrace();
          }
         }
+        public void passed(String testMethodName){
+                File    fileName= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+                try {
+                   FileUtils.copyFile(fileName,new File("C:/Workspace/screenShot/src/main/java/ScreenShot"+testMethodName+"_"+".jpg"));
+                }catch (Exception e){
+                    e.printStackTrace();
+                }
+        }
 }
